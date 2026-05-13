@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================
+# Project-specific ignores
+# ============================
+
+# Goodreads raw datasets
+data/*.json
+data/*.json.gz
+
+# Spark generated outputs
+outputs/models/
+outputs/tables/
+outputs/test_write/
+
+# Spark metadata files
+*.crc
+_SUCCESS
+
+# Local editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
